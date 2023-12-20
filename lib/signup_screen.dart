@@ -75,12 +75,6 @@ TextEditingController password=TextEditingController();
                        controller.encrptuser=encrypted;
                               },
 
-                  // onTap: (){
-                  //   final crypto = ClsCrypto(controller.authkey);
-                  //   final encrypted = crypto.encrypt("${username.text}");
-                  //   print("Encrypted: $encrypted");
-                  //   controller.encrptuser=encrypted;
-                  // },
 
                 ),
               ),
@@ -119,12 +113,7 @@ TextEditingController password=TextEditingController();
                 print("Encrypted: $encrypted");
                 controller.encrptpass=encrypted;
               },
-              onTap: (){
-                final crypto = ClsCrypto(controller.authkey);
-                final encrypted = crypto.encrypt("${password.text}");
-                print("Encrypted: $encrypted");
-                controller.encrptpass=encrypted;
-              },
+
             )),
 
             Padding(
